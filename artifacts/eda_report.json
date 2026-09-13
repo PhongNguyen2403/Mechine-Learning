@@ -1,0 +1,57 @@
+{
+  "dataset": "agricultural_product_quality.csv",
+  "rows": 1500,
+  "feature_count": 6,
+  "feature_names": [
+    "weight",
+    "size",
+    "moisture",
+    "sugar_level",
+    "firmness",
+    "color_score"
+  ],
+  "missing_values": 0,
+  "class_distribution": {
+    "0": 500,
+    "1": 500,
+    "2": 500
+  },
+  "summary": {
+    "weight": {
+      "min": 80.86,
+      "max": 270.79,
+      "mean": 172.5063,
+      "std": 35.6317
+    },
+    "size": {
+      "min": 4.38,
+      "max": 9.3,
+      "mean": 6.8138,
+      "std": 0.9396
+    },
+    "moisture": {
+      "min": 53.82,
+      "max": 99.46,
+      "mean": 77.5912,
+      "std": 9.8833
+    },
+    "sugar_level": {
+      "min": 2.51,
+      "max": 17.55,
+      "mean": 10.1721,
+      "std": 3.0677
+    },
+    "firmness": {
+      "min": 1.48,
+      "max": 11.03,
+      "mean": 6.5127,
+      "std": 1.8872
+    },
+    "color_score": {
+      "min": 2.56,
+      "max": 10.75,
+      "mean": 7.2179,
+      "std": 1.6818
+    }
+  }
+}

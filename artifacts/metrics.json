@@ -1,0 +1,79 @@
+{
+  "samples": 1500,
+  "features": [
+    "weight",
+    "size",
+    "moisture",
+    "sugar_level",
+    "firmness",
+    "color_score"
+  ],
+  "classes": [
+    0,
+    1,
+    2
+  ],
+  "train_samples": 1200,
+  "test_samples": 300,
+  "accuracy": 0.9933,
+  "precision_macro": 0.9933,
+  "recall_macro": 0.9933,
+  "f1_macro": 0.9933,
+  "confusion_matrix": [
+    [
+      100,
+      0,
+      0
+    ],
+    [
+      0,
+      99,
+      1
+    ],
+    [
+      0,
+      1,
+      99
+    ]
+  ],
+  "classification_report": {
+    "0": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 100.0
+    },
+    "1": {
+      "precision": 0.99,
+      "recall": 0.99,
+      "f1-score": 0.99,
+      "support": 100.0
+    },
+    "2": {
+      "precision": 0.99,
+      "recall": 0.99,
+      "f1-score": 0.99,
+      "support": 100.0
+    },
+    "accuracy": 0.9933333333333333,
+    "macro avg": {
+      "precision": 0.9933333333333333,
+      "recall": 0.9933333333333333,
+      "f1-score": 0.9933333333333333,
+      "support": 300.0
+    },
+    "weighted avg": {
+      "precision": 0.9933333333333333,
+      "recall": 0.9933333333333333,
+      "f1-score": 0.9933333333333333,
+      "support": 300.0
+    }
+  },
+  "support_vectors": 102,
+  "best_params": {
+    "classifier__C": 1.0,
+    "classifier__gamma": "scale",
+    "classifier__kernel": "rbf"
+  },
+  "cv_best_accuracy": 0.9975
+}
